@@ -1,9 +1,9 @@
 OUI
 ==
-'oui' is an easy to use MAC address vendor lookup tool.
+`oui` is an easy to use MAC address vendor lookup tool.
 
-I regularly have to go to the internet to lookup MAC address vendor details. 'oui' will lookup the 
-vendor of a MAC address from the convenience of a CLI one liner. 'oui' has the ability to lookup multiple 
+I regularly have to go to the internet to lookup MAC address vendor details. `oui` will lookup the 
+vendor of a MAC address from the convenience of a CLI one liner. `oui` has the ability to lookup multiple 
 MAC address simultaneously and present the MAC address in mutiple common formats.
 
 
@@ -13,10 +13,10 @@ OUI features
 * Resolves multiple inputs simultaneously in one convenient CLI command
 * Returns vendor name per MAC address
 * Returns MAC address in the following formats
+    * Standard  00:11:22:33:44:55
     * Windows   00-11-22-33-44-55
     * Cisco     0011.2233.4455
-    * Standard  00:11:22:33:44:55
-* Update application OUI vendor details
+* Update application's OUI vendor details
 * Py2exe setup script provided with source code
 
 
@@ -24,7 +24,7 @@ Create Win32 EXE from source using py2exe
 -----------------------------------------
 1. Install python dependencies for oui program
 2. Change into source dir 
-3. Create exe file using supplied py2exe script
+3. Create exe file using supplied py2exe script.
    See [py2exe website for tutorial](http://www.py2exe.org/index.cgi/Tutorial)
 4. Copy dist\oui.exe to location in window's system path
 
