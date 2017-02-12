@@ -45,7 +45,7 @@ Usage
 
 Argument  | Type   | Format               | Default           | Description
 ----------|--------|----------------------|-------------------|--------------------
-mac address | string | {mac address} | No default value | mac address to format and return vendor name
+mac address | string | {xx-xx-xx-xx-xx-xx xxxxxxxxxxxx xxxx.xxxx.xxxx} | No default value | mac address to format and return vendor name
 -u | switch | -u | disabled | Update applications OUI vendor details
 -h | switch | -h | disabled | Prints help to console   
 -d | switch | -d | disabled | Enables debug output to console
