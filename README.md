@@ -4,7 +4,7 @@ OUI
 
 I regularly have to go to the internet to lookup MAC address vendor details. `oui` will lookup the 
 vendor of a MAC address from the convenience of a CLI one liner. `oui` has the ability to lookup multiple 
-MAC address simultaneously and present the MAC address in mutiple common formats.
+MAC address simultaneously and present the MAC address in multiple common formats.
 
 
 OUI features
@@ -45,7 +45,7 @@ Usage
 
 Argument  | Type   | Format               | Default           | Description
 ----------|--------|----------------------|-------------------|--------------------
-mac address | string | {xx-xx-xx-xx-xx-xx xxxxxxxxxxxx xxxx.xxxx.xxxx} | No default value | mac address to format and return vendor name
+mac address | string | 12 hexadecimal characters in any MAC address format | No default value | mac address to format and lookup vendor name
 -u | switch | -u | disabled | Update applications OUI vendor details
 -h | switch | -h | disabled | Prints help to console   
 -d | switch | -d | disabled | Enables debug output to console
